@@ -23,6 +23,11 @@ body {
 
 #app form {
   margin-bottom: 25px;
+  display: flex;
+}
+
+#app form input {
+  border-radius: 0px;
 }
 
 .resultats {
@@ -32,5 +37,5 @@ body {
 .resultats div {
   display: flex;
   flex-grow: 1;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
